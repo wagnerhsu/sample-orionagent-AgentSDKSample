@@ -30,7 +30,7 @@ android {
 
 dependencies {
     // Agent SDK dependency
-    implementation("com.orionstar.agent:sdk:0.3.3-SNAPSHOT")
+    implementation("com.orionstar.agent:sdk:0.4.5-SNAPSHOT")
     
     implementation libs.appcompat
     implementation libs.material

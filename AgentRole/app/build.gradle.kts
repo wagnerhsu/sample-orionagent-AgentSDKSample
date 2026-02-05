@@ -30,11 +30,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 
     // Compose配置
@@ -48,7 +48,7 @@ android {
 
 dependencies {
 //    implementation("com.github.orionagent:agent-sdk:0.2.7")
-    implementation("com.orionstar.agent:sdk:0.3.3-SNAPSHOT")
+    implementation("com.orionstar.agent:sdk:0.4.5-SNAPSHOT")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

@@ -1,5 +1,5 @@
 [versions]
-agentVersion = "0.3.3-SNAPSHOT"
+agentVersion = "0.4.5-SNAPSHOT"
 agp = "8.1.4"
 kotlin = "1.9.24"
 coreKtx = "1.13.1"

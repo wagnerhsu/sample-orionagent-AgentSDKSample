@@ -52,7 +52,7 @@ android {
 dependencies {
 
     // AgentOS SDK
-    implementation("com.orionstar.agent:sdk:0.3.2-SNAPSHOT")
+    implementation("com.orionstar.agent:sdk:0.4.5-SNAPSHOT")
     
     // Android标准库
     implementation("androidx.core:core-ktx:1.13.1")

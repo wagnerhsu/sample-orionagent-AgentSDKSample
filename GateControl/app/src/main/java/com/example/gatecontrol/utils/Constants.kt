@@ -9,7 +9,7 @@ object Constants {
     const val LOG_TAG = "GateControl"
     
     // 网络配置
-    const val SERVER_IP = "your.server.ip"
+    const val SERVER_IP = "192.168.6.98"
     const val SERVER_PORT = 9999 // your server port
     const val UDP_COMMAND_OPEN_DOOR = "0109"
     
